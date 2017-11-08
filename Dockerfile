@@ -18,6 +18,7 @@ RUN yum update -y \
 
 # Set environment variables.
 ENV HOME /root
+ENV JAVA_HOME /usr/java/jdk1.8.0_${JAVA_VERSION_MINOR}
 
 # Define working directory.
 WORKDIR /root
